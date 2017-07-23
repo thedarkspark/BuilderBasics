@@ -2,9 +2,10 @@
 //  ViewController.swift
 //  interfaceBuilderApp
 //
-//  Created by Dwayne Weaver on 7/22/17.
+//  Created by Dwayne Weaver & Bernard Huff on 7/22/17.
 //  Copyright © 2017 Dwayne Weaver. All rights reserved.
 //
+//  And the award for worst print to console message goes to...
 
 import UIKit
 
