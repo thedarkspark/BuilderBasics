@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var myButton: UIButton!
     @IBAction func changeTitle(_ sender: Any){
     mainLabel.text = "Damn this a good app"
-        print("the button was pressed, GOOD JOB!!!)")
+        print("the button was pressed, GOOD JOB!!)")
     }
     @IBOutlet weak var mainLabel: UILabel!
 
