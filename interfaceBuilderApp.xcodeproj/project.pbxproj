@@ -22,6 +22,7 @@
 		8A446F701F2443D0008DE09B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A446F731F2443D0008DE09B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A446F751F2443D0008DE09B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AF18D341F2483E3000614B5 /* interfaceBuilderApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = interfaceBuilderApp.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 			children = (
 				8A446F681F2443D0008DE09B /* interfaceBuilderApp */,
 				8A446F671F2443D0008DE09B /* Products */,
+				8AF18D311F2483CF000614B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +56,7 @@
 		8A446F681F2443D0008DE09B /* interfaceBuilderApp */ = {
 			isa = PBXGroup;
 			children = (
+				8AF18D341F2483E3000614B5 /* interfaceBuilderApp.entitlements */,
 				8A446F691F2443D0008DE09B /* AppDelegate.swift */,
 				8A446F6B1F2443D0008DE09B /* ViewController.swift */,
 				8A446F6D1F2443D0008DE09B /* Main.storyboard */,
@@ -62,6 +65,13 @@
 				8A446F751F2443D0008DE09B /* Info.plist */,
 			);
 			path = interfaceBuilderApp;
+			sourceTree = "<group>";
+		};
+		8AF18D311F2483CF000614B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +108,20 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = N4F4XPGM46;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.HealthKit = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -302,6 +326,7 @@
 				8A446F7A1F2443D0008DE09B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
