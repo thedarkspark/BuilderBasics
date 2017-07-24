@@ -5,7 +5,7 @@
 //  Created by Dwayne Weaver & Bernard Huff on 7/22/17.
 //  Copyright © 2017 Dwayne Weaver. All rights reserved.
 //
-//  And the award for worst print to console message goes to...
+//  That ended up being pretty interesting...
 
 import UIKit
 
@@ -16,6 +16,8 @@ class ViewController: UIViewController {
         print("the button was pressed, GOOD JOB!!)")
     }
     @IBOutlet weak var mainLabel: UILabel!
+    
+    //You know what im not sure I want to edit this file just yet.
 
     override func viewDidLoad() {
         
